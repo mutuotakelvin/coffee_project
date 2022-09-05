@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    font-size: 16px;
 }
 *,*::before,*::after{
     box-sizing: inherit;
@@ -29,6 +30,7 @@ ul{
     padding: 0;
     gap: 8px;
     margin-right: 16px;
+    font-size: 16px;
 }
 .container{
     flex: 1;
@@ -131,7 +133,7 @@ a{
 }
 
 p{
-    width: 10vm;
+    font-size: 1rem;
 }
 
 .info-container-items{
@@ -145,4 +147,7 @@ p{
 .btn{
     border: 2px solid royalblue;
     border-color: #E5E7EB;
+}
+ul > li{
+    font-size: 1em;
 }
